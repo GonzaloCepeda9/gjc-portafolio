@@ -1,0 +1,384 @@
+:root {
+  --form-gmail: #d50000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.seccion {
+  min-height: 100vh;
+  width: 100vw;
+  color: #c5bfbf;
+  background-color: #090909;
+}
+
+.contenedor {
+  padding: 9vw 6vw;
+}
+
+.contenedor-proyectos {
+  padding-top: 0;
+}
+
+.contenedor-acerca,
+.contenedor-proyectos,
+.contenedor-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.titulo-seccion {
+  margin: 24px 0;
+  font-size: 28px;
+  color: #c5bfbf;
+  text-shadow: 1px 1px 1px #e74d4d;
+}
+
+/* Botón go top */
+
+.go-top-container {
+  width: 50px;
+  height: 50px;
+  background-color: #da1616;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  transform: scale(0);
+}
+
+.go-top-container:hover {
+  background-color: #e74d4d;
+}
+
+.go-top-container:active {
+  background-color: #b71a1a;
+}
+
+.go-top-button {
+  font-size: 24px;
+}
+
+.show {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+/* Inicio de Sección 1 */
+
+.seccion1 {
+  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 1)), url(./../../imagenes/fondoP.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+.contenedor-titulo {
+  /* max-width: 50%; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8vw;
+}
+
+.titulo-principal {
+  font-size: 7vw;
+  color: #c5bfbf;
+  text-shadow: 2px 0 9px #000;
+}
+
+.contenedor-lista {
+  font-size: 3vw;
+  color: #c5bfbf;
+  text-shadow: 0.5px 0.5px 0.5px #e74d4d;
+}
+
+.contenedor-lista ul {
+  margin-left: 4vw;
+}
+
+.contenedor-lista ul li {
+  margin: 1vw 0;
+}
+
+.contenedor-lista ul li a {
+  color: #c5bfbf;
+  opacity: 0.8;
+}
+
+.contenedor-lista ul li a:hover {
+  opacity: 1;
+}
+
+.icon-arrow {
+  font-size: 2vw;
+  color: #e74d4d;
+  margin: 0 1vw;
+}
+
+/* Fin de Sección 1 */
+
+
+/* Inicio de Sección 2 */
+
+.contenedor-texto {
+  width: 80%;
+  margin-bottom: 48px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.contenedor-certificado {
+  width: 80%;
+}
+
+.certificadoUTN {
+  width: 100%;
+  height: 100%;
+}
+
+/* Fin de Sección 2 */
+
+
+/* Inicio de Sección 3 */
+
+.proyectos-basicos,
+.proyecto-principal {
+  width: 80%;
+}
+
+/* Proyectos básicos */
+
+.proyectos-basicos {
+  width: 80%;
+  margin-bottom: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-proyecto {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-proyecto {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 8px;
+  border-radius: 5%;
+  box-shadow: 0 0 8px #fff;
+}
+
+.link-proyecto {
+  font-size: 20px;
+  font-weight: 500;
+  color: #c5bfbf;
+  text-shadow: 2px 2px 2px #e74d4d;
+  display: inline-block;
+  opacity: 0.75;
+}
+
+.link-proyecto:hover {
+  opacity: 1;
+}
+
+.link-proyecto:active {
+  opacity: 0.5;
+}
+
+.icon-link {
+  margin-left: 8px;
+  color: #e74d4d;
+}
+
+.img-proyecto-principal {
+  width: 100%;
+  height: 100%;
+}
+
+/* Fin de Sección 3 */
+
+
+/* Inicio de Sección 4 */
+
+.seccion4 {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-contactos {
+  min-width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-icon {
+  border-radius: 50%;
+  cursor: pointer;
+  color: #8c8888;
+}
+
+.icon-contacto {
+  font-size: 5vw;
+  margin: 2vw;
+}
+
+.contenedor-icon:hover {
+  color: #fff;
+}
+
+.contenedor-icon:active {
+  opacity: 0.75;
+}
+
+.contenedor-whatsapp:hover {
+  color: #fff;
+  background-color: #25d366;
+  box-shadow: 0 0 20px #25d366;
+}
+
+.contenedor-instagram:hover {
+  color: #fff;
+  background-color: #e60073;
+  box-shadow: 0 0 20px #e60073;
+}
+
+.contenedor-facebook:hover {
+  color: #fff;
+  background-color: #1877f2;
+  box-shadow: 0 0 20px #1877f2;
+}
+
+.contenedor-email:hover {
+  color: #fff;
+  background-color: #d50000;
+  box-shadow: 0 0 20px #d50000;
+}
+
+.contenedor-linkedin:hover {
+  color: #fff;
+  background-color: #0e3c7d;
+  box-shadow: 0 0 20px #0e3c7d;
+}
+
+.contenedor-github:hover {
+  color: #fff;
+  background-color: #333333;
+  box-shadow: 0 0 20px #333333;
+}
+
+  /* Formulario */
+
+  .formulario-hidden {
+    transform: scale(0);
+  }
+
+  .formulario-gmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    transform: scale(1);
+    transition: all 0.4s;
+  }
+  
+  .contenedor-formulario {
+    width: 60%;
+    height: 60%;
+  }
+  
+  .secundario-titulo {
+    margin: 2vh 0;
+  }
+
+  .gmail-correo {
+    color: var(--form-gmail);
+  }
+
+  .contenedor-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formulario-input, .formulario-textarea {
+    width: 100%;
+    margin: 6px 0;
+    padding: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 2px var(--form-gmail);
+    border-radius: 8px;
+    opacity: 0.9;
+  }
+  
+  .formulario-label {
+    color: #fff;
+    text-shadow: 2px 2px 2px var(--form-gmail);
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .formulario-textarea {
+    height: 10vh;
+  }
+  
+  .formulario-boton {
+    width: 100%;
+    min-height: 3vh;
+    margin: 8px 0;
+    padding: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: var(--form-gmail);
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    box-shadow: 1px 1px 3px #fb8b8b;
+    border: 1.5px groove #000;
+    border-radius: 8px;
+  }
+  
+  .formulario-input::placeholder, .formulario-textarea::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .formulario-input:focus, .formulario-textarea:focus {
+    outline: 2px solid var(--form-gmail);
+  }
+  
+  .formulario-boton:hover {
+    background-color: var(--form-gmail);
+  }
+  
+  .formulario-boton:active {
+    background-color: var(--form-gmail);
+    opacity: 0.8;
+  }
+
+/* Fin de Sección 4 */

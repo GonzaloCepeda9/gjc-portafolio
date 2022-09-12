@@ -1,0 +1,53 @@
+/* Inicio de estilo RESPONSIVE para CELULAR */
+
+@media screen and (max-width: 480px) {
+  
+  /* Sección 1 */
+
+  .contenedor-titulo {
+    max-width: 50%;
+    margin-bottom: 18vw;
+  }
+
+  .titulo-principal {
+    font-size: 8vw;
+  }
+  
+  .contenedor-lista {
+    font-size: 4vw;
+  }
+
+  .go-top-container {
+    width: 40px;
+    height: 40px;
+  }
+
+  .go-top-button {
+    font-size: 16px;
+  }
+
+  /* Sección 3 */
+
+  .imagen-proyecto {
+    width: 80%;
+    height: 80%;
+  }
+
+  .link-proyecto {
+    font-size: 4vw;
+  }
+  
+  .icon-link {
+    margin-left: 4px;
+  }
+
+  /* Sección 4 */
+
+  .icon-contacto {
+    font-size: 7vw;
+    margin: 2vw;
+  }
+  
+}
+
+/* Fin de estilo para CELULAR */

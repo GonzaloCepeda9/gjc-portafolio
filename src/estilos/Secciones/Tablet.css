@@ -1,0 +1,27 @@
+/* Inicio de estilo RESPONSIVE para TABLET */
+
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+
+  .contenedor-titulo {
+    max-width: 50%;
+    margin-bottom: 18vw;
+  }
+
+  .titulo-principal {
+    font-size: 8vw;
+  }
+  
+  .contenedor-lista {
+    font-size: 4vw;
+  }
+
+  /* Sección 4 */
+
+  .icon-contacto {
+    font-size: 6vw;
+    margin: 2vw;
+  }
+
+}
+
+/* Fin de estilo para TABLET */
