@@ -15,27 +15,29 @@ function Seccion3 () {
         <h3>Proyectos Básicos</h3>
         <div className="proyectos-basicos">
             <div className="contenedor-proyecto">
-              <img className="imagen-proyecto" src={Calculadora} alt="" />
-              <a href="https://github.com/GonzaloCepeda9" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+              <img className="imagen-proyecto" src={Testimonios} alt="" />
+              <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-testimonios" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
             </div>
             <div className="contenedor-proyecto">
               <img className="imagen-proyecto" src={ContadorClicks} alt="" />
-              <a href="https://github.com/GonzaloCepeda9" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+              <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-contadorClicks" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+            </div>
+            <div className="contenedor-proyecto">
+              <img className="imagen-proyecto" src={Calculadora} alt="" />
+              <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-calculadora" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
             </div>
             <div className="contenedor-proyecto">
               <img className="imagen-proyecto" src={Tareas} alt="" />
-              <a href="https://github.com/GonzaloCepeda9" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
-            </div>
-            <div className="contenedor-proyecto">
-              <img className="imagen-proyecto" src={Testimonios} alt="" />
-              <a href="https://github.com/GonzaloCepeda9" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+              <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-tareas" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
             </div>
         </div>
         <h3>Proyecto Avanzado</h3>
         <div className="proyecto-principal">
             <div className="contenedor-proyecto">
               <img className="imagen-proyecto img-proyecto-principal" src={Mundial2022} alt="" />
-              <a href="https://github.com/GonzaloCepeda9" target="blank" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+              <p className="link-proyecto2">Ver código en GitHub</p>
+              <a href="https://github.com/GonzaloCepeda9/gjc-mundial2022-backend" target="blank" className="link-proyecto">(backend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+              <a href="https://github.com/GonzaloCepeda9/gjc-mundial2022-frontend" target="blank" className="link-proyecto">(frontend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
             </div>
         </div>
       </div>

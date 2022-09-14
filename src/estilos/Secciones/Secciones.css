@@ -183,13 +183,17 @@ html {
   box-shadow: 0 0 8px #fff;
 }
 
-.link-proyecto {
+.link-proyecto, .link-proyecto2 {
   font-size: 20px;
   font-weight: 500;
   color: #c5bfbf;
   text-shadow: 2px 2px 2px #e74d4d;
   display: inline-block;
   opacity: 0.75;
+}
+
+.link-proyecto2 {
+  user-select: none;
 }
 
 .link-proyecto:hover {

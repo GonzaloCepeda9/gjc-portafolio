@@ -53,7 +53,7 @@ function Seccion4 () {
           <div className="contenedor-icon contenedor-email" onClick={showForm}>
             <MailOutlined className="icon-contacto icon-email" />
           </div>
-          <a href="https://www.linkedin.com/feed/" className="contenedor-icon contenedor-linkedin" target="blank4">
+          <a href="https://www.linkedin.com/in/gonzalo-cepeda-b701b8250/" className="contenedor-icon contenedor-linkedin" target="blank4">
             <LinkedinOutlined className="icon-contacto icon-linkedin" />
           </a>
           <a href="https://github.com/GonzaloCepeda9/" className="contenedor-icon contenedor-github" target="blank5">
