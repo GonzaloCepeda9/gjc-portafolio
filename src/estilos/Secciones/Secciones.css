@@ -166,7 +166,9 @@ html {
 
 .texto-pdf {
   display: flex;
+  align-items: center;
   justify-content: center;
+  color: #fff;
 }
 
 .texto-pdf:visited {
