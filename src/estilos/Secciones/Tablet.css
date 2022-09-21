@@ -1,7 +1,20 @@
 /* Inicio de estilo RESPONSIVE para TABLET */
 
 @media only screen and (min-width: 480px) and (max-width: 780px) {
-  
+
+  /* Botón go top */
+
+  .go-top-container {
+    width: 36px;
+    height: 36px;
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .go-top-button {
+    font-size: 18px;
+  }
+
   /* Sección 1 */
 
   .contenedor-titulo {
@@ -24,7 +37,7 @@
   /* Sección 3 */
 
   .link-proyecto, .link-proyecto2 {
-    font-size: 2vw;
+    font-size: 18px;
     text-shadow: 1px 2px 2px #e74d4d;
   }
 
@@ -33,6 +46,21 @@
   .icon-contacto {
     font-size: 6vw;
     margin: 2vw;
+  }
+  
+  /* Formulario */
+  
+  .formulario-gmail {
+    font-size: 12px;
+  }
+  
+  .contenedor-formulario {
+    width: 90%;
+    height: 90%;
+  }
+  
+  .formulario-input::placeholder, .formulario-textarea::placeholder {
+    font-size: 10px;
   }
 
 }

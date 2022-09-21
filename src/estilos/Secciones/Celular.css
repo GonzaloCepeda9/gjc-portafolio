@@ -1,7 +1,30 @@
 /* Inicio de estilo RESPONSIVE para CELULAR */
 
 @media screen and (max-width: 480px) {
+
+  /* General */
   
+  .titulo-seccion {
+    font-size: 20px;
+  }
+
+  .titulo-secundario {
+    font-size: 16px;
+  }
+
+  /* Botón go top */
+
+  .go-top-container {
+    width: 24px;
+    height: 24px;
+    right: 8px;
+    bottom: 8px;
+  }
+
+  .go-top-button {
+    font-size: 12px;
+  }
+
   /* Sección 1 */
 
   .contenedor-titulo {
@@ -21,13 +44,10 @@
     padding-bottom: 9vw;
   }
 
-  .go-top-container {
-    width: 40px;
-    height: 40px;
-  }
+  /* Sección 2 */
 
-  .go-top-button {
-    font-size: 16px;
+  .contenedor-texto {
+    font-size: 12px;
   }
 
   /* Sección 3 */
@@ -38,17 +58,53 @@
   }
 
   .link-proyecto, .link-proyecto2 {
-    font-size: 2.5vw;
+    font-size: 12px;
     text-shadow: 1px 2px 2px #e74d4d;
+  }
+
+  .link-doble {
+    font-size: 10px;
   }
 
   /* Sección 4 */
 
   .icon-contacto {
-    font-size: 7vw;
+    font-size: 8vw;
     margin: 2vw;
+  }
+
+  /* Formulario */
+  
+  .formulario-gmail {
+    font-size: 12px;
+  }
+  
+  .contenedor-formulario {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .formulario-label {
+    font-size: 10px;
+  }
+
+  .formulario-input {
+    height: 24px;
+  }
+
+  .formulario-textarea {
+    height: 48px;
+  }
+  
+  .formulario-boton {
+    font-size: 10px;
+    padding: 3px;
+  }
+  
+  .formulario-input::placeholder,
+  .formulario-textarea::placeholder {
+    font-size: 10px;
   }
   
 }
-
-/* Fin de estilo para CELULAR */
+  /* Fin de estilo para CELULAR */
