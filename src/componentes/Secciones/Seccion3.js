@@ -47,10 +47,14 @@ function Seccion3 () {
         <div className="proyecto-principal">
           <div className="contenedor-proyecto">
             <img className="imagen-proyecto img-proyecto-principal" src={Mundial2022} alt="" />
-            <div className="links-proyectos">
-              <a href="https://www.google.com/" target="blank7" className="link-proyecto link-web">Ir a la página web<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+            <div className="links-proyectos link-web">
+              <p className="link-proyecto2">Ir a la página web</p>
+              <div className="contenedor-links">
+                <a href="https://www.google.com/" target="blank7" className="link-proyecto link-doble">(backend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+                <a href="https://www.google.com/" target="blank7" className="link-proyecto link-doble">(frontend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+              </div>
             </div>
-            <div className="links-proyectos">
+            <div className="links-proyectos links-proyectos3">
               <p className="link-proyecto2">Ver código en GitHub</p>
               <div className="contenedor-links">
                 <a href="https://github.com/GonzaloCepeda9/gjc-mundial2022-backend" target="blank" className="link-proyecto link-doble">(backend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
