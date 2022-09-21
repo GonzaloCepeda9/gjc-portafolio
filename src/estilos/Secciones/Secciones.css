@@ -173,6 +173,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .imagen-proyecto {
@@ -180,11 +181,11 @@ html {
   height: 300px;
   margin-bottom: 8px;
   border-radius: 5%;
-  box-shadow: 0 0 8px #fff;
+  box-shadow: 0 0 6px #fff;
 }
 
 .link-proyecto, .link-proyecto2 {
-  font-size: 20px;
+  font-size: 1.4vw;
   font-weight: 500;
   color: #c5bfbf;
   text-shadow: 2px 2px 2px #e74d4d;
@@ -205,8 +206,17 @@ html {
 }
 
 .icon-link {
-  margin-left: 8px;
+  margin-left: 0.5vw;
   color: #e74d4d;
+}
+
+.link-web {
+  margin-top: .5vw;
+  margin-bottom: 1.5vw;
+}
+
+.link-doble {
+  margin-right: 3vw;
 }
 
 .img-proyecto-principal {

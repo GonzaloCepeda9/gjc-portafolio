@@ -1,10 +1,12 @@
 /* Inicio de estilo RESPONSIVE para TABLET */
 
 @media only screen and (min-width: 480px) and (max-width: 780px) {
+  
+  /* Sección 1 */
 
   .contenedor-titulo {
     max-width: 50%;
-    margin-bottom: 18vw;
+    margin-bottom: 12vw;
   }
 
   .titulo-principal {
@@ -13,6 +15,17 @@
   
   .contenedor-lista {
     font-size: 4vw;
+  }
+  
+  .contenedor-lista li {
+    padding-bottom: 4vw;
+  }
+
+  /* Sección 3 */
+
+  .link-proyecto, .link-proyecto2 {
+    font-size: 2vw;
+    text-shadow: 1px 2px 2px #e74d4d;
   }
 
   /* Sección 4 */

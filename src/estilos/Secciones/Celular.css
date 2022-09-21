@@ -6,7 +6,7 @@
 
   .contenedor-titulo {
     max-width: 50%;
-    margin-bottom: 18vw;
+    margin-bottom: 54vw;
   }
 
   .titulo-principal {
@@ -14,7 +14,11 @@
   }
   
   .contenedor-lista {
-    font-size: 4vw;
+    font-size: 5vw;
+  }
+  
+  .contenedor-lista li {
+    padding-bottom: 9vw;
   }
 
   .go-top-container {
@@ -33,12 +37,9 @@
     height: 80%;
   }
 
-  .link-proyecto {
-    font-size: 4vw;
-  }
-  
-  .icon-link {
-    margin-left: 4px;
+  .link-proyecto, .link-proyecto2 {
+    font-size: 2.5vw;
+    text-shadow: 1px 2px 2px #e74d4d;
   }
 
   /* Sección 4 */
