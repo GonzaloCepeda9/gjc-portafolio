@@ -50,8 +50,8 @@ function Seccion3 () {
             <div className="links-proyectos link-web">
               <p className="link-proyecto2">Ir a la página web</p>
               <div className="contenedor-links">
-                <a href="https://www.google.com/" target="blank7" className="link-proyecto link-doble">(backend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
-                <a href="https://www.google.com/" target="blank7" className="link-proyecto link-doble">(frontend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+                <a href="https://mundial2022-gjc.herokuapp.com/" target="blank7" className="link-proyecto link-doble">(backend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
+                <a href="https://mundial2022-gjc.netlify.app/" target="blank7" className="link-proyecto link-doble">(frontend)<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
               </div>
             </div>
             <div className="links-proyectos links-proyectos3">
