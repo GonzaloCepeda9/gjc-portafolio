@@ -1,6 +1,8 @@
 import React from "react";
 import CertificadoUTN from "./../../imagenes/CertificadoUTN.png";
-// import "../../estilos/Secciones/Secciones.css";
+import Curriculum from "../../archivos/CurriculumGonzalo.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 function Seccion2 () {
   return (
@@ -13,6 +15,13 @@ function Seccion2 () {
         <div className="contenedor-certificado">
           <img className="certificadoUTN" src={CertificadoUTN} alt="" />
         </div>
+        <button className="contenedor-pdf">
+          <a href={Curriculum} className="texto-pdf" download={"CV Gonzalo Cepeda"}>
+            <FontAwesomeIcon className="icon-arrow icon-pdf" icon={faFilePdf} />
+            <p>Descargar Currículum Vitae</p>
+            <FontAwesomeIcon className="icon-arrow icon-pdf" icon={faDownload} />
+          </a>
+        </button>
       </div>
     </section>
   );
