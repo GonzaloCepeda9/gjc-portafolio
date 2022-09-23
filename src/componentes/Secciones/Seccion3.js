@@ -51,7 +51,7 @@ function Seccion3 () {
             {/* <video className="video-proyecto" width="400" height="400" poster={imagenVideo} controls>
               <source src={videoProyecto} type="" />
             </video> */}
-            <img src={imagenProyecto} alt="">
+            <img src={imagenProyecto} alt="" />
             <div className="links-proyectos link-web">
               <p className="link-proyecto2">Ir a la página web</p>
               <div className="contenedor-links">
