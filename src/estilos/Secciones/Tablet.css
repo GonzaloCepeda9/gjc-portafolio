@@ -33,6 +33,14 @@
   .contenedor-lista li {
     padding-bottom: 4vw;
   }
+    
+  .contenedor-pdf {
+    font-size: 12px;
+  }
+
+  .icon-pdf {
+    font-size: 14px;
+  }
 
   /* Sección 3 */
 
@@ -42,8 +50,8 @@
   }
 
   .video-proyecto {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
   }
 
   /* Sección 4 */

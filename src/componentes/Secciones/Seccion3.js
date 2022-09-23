@@ -6,6 +6,7 @@ import Testimonios from "./../../imagenes/Testimonios-freeCodeCamp.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import imagenProyecto from "../../imagenes/Mundial2022c.jpg";
+import videoProyecto from "../../archivos/VideoProyecto.mp4";
 
 
 function Seccion3 () {
@@ -46,8 +47,10 @@ function Seccion3 () {
         </div>
         <h3 className="titulo-secundario">Proyecto Avanzado</h3>
         <div className="proyecto-principal">
-          <div className="contenedor-proyecto">
-            <img src={imagenProyecto} alt="" />
+          <div className="contenedor-proyecto">  
+            <video className="video-proyecto" width="600" height="600" poster={imagenProyecto} controls>
+              <source src={videoProyecto} type="" />
+            </video>
             <div className="links-proyectos link-web">
               <p className="link-proyecto2">Ir a la página web</p>
               <div className="contenedor-links">
