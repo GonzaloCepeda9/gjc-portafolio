@@ -5,8 +5,9 @@ import Tareas from "./../../imagenes/Tareas-freeCodeCamp.jpg";
 import Testimonios from "./../../imagenes/Testimonios-freeCodeCamp.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
-import videoProyecto from "../../archivos/VideoProyecto.mp4";
-import imagenVideo from "../../imagenes/Mundial2022c.jpg";
+// import videoProyecto from "../../archivos/VideoProyecto.mp4";
+// import imagenVideo from "../../imagenes/Mundial2022c.jpg";
+import imagenProyecto from "../../imagenes/Mundial2022c.jpg";
 
 function Seccion3 () {
   return (
@@ -47,9 +48,10 @@ function Seccion3 () {
         <h3 className="titulo-secundario">Proyecto Avanzado</h3>
         <div className="proyecto-principal">
           <div className="contenedor-proyecto">
-            <video className="video-proyecto" width="400" height="400" poster={imagenVideo} controls>
+            {/* <video className="video-proyecto" width="400" height="400" poster={imagenVideo} controls>
               <source src={videoProyecto} type="" />
-            </video>
+            </video> */}
+            <img src={imagenProyecto} alt="">
             <div className="links-proyectos link-web">
               <p className="link-proyecto2">Ir a la página web</p>
               <div className="contenedor-links">
