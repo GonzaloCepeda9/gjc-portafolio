@@ -38,10 +38,10 @@ html {
 }
 
 .titulo-secundario {
-  /* font-style: italic; */
-  font-size: 24px;
-  color: #000;
-  text-shadow: 1px 0px 3px #fff;
+  font-size: 20px;
+  color: #999;
+  text-shadow: 1px 0px 1px #fff;
+  text-decoration: underline;
 }
 
 /* Botón go top */
