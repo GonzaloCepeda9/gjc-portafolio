@@ -34,7 +34,14 @@ html {
   margin: 24px 0;
   font-size: 28px;
   color: #c5bfbf;
-  text-shadow: 1px 1px 1px #e74d4d;
+  text-shadow: 2px 1px 1px #e74d4d;
+}
+
+.titulo-secundario {
+  /* font-style: italic; */
+  font-size: 24px;
+  color: #000;
+  text-shadow: 1px 0px 3px #fff;
 }
 
 /* Botón go top */
@@ -238,17 +245,28 @@ html {
   box-shadow: 0 0 6px #fff;
 }
 
-.link-proyecto, .link-proyecto2 {
-  font-size: 20px;
+.link-proyecto {
+  font-size: 18px;
   font-weight: 500;
+  margin-bottom: 12px;
   color: #c5bfbf;
-  text-shadow: 2px 2px 2px #e74d4d;
   display: inline-block;
   opacity: 0.75;
 }
 
 .link-proyecto2 {
+  font-size: 18px;
+  font-weight: 600;
   user-select: none;
+  margin-bottom: 4px;
+  margin-top: 12px;
+  color: #efefef;
+  text-shadow: 0px 2px 3px #666;
+}
+
+.links-proyectos a {
+  font-style: italic;
+  margin-bottom: 8px;
 }
 
 .link-proyecto:hover {

@@ -19,6 +19,7 @@ function Seccion3 () {
             <div className="contenedor-proyecto">
               <img className="imagen-proyecto" src={Tareas} alt="" />
               <div className="links-proyectos">
+                <p className="link-proyecto2">Tareas</p>
                 <a href="https://tareas-gjc.netlify.app/" target="blank1" className="link-proyecto link-web">Ir a la página web<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
                 <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-tareas" target="blank2" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
               </div>
@@ -26,6 +27,7 @@ function Seccion3 () {
             <div className="contenedor-proyecto">
               <img className="imagen-proyecto" src={Calculadora} alt="" />
               <div className="links-proyectos">
+              <p className="link-proyecto2">Calculadora</p>
                 <a href="https://calculadora-gjc.netlify.app/" target="blank3" className="link-proyecto link-web">Ir a la página web<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
                 <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-calculadora" target="blank4" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
               </div>
@@ -33,6 +35,7 @@ function Seccion3 () {
             <div className="contenedor-proyecto">
               <img className="imagen-proyecto" src={ContadorClicks} alt="" />
               <div className="links-proyectos">
+              <p className="link-proyecto2">Contador de Clicks</p>
                 <a href="https://contadorclicks-gjc.netlify.app/" target="blank5" className="link-proyecto link-web">Ir a la página web<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
                 <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-contadorClicks" target="blank6" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
               </div>
@@ -40,6 +43,7 @@ function Seccion3 () {
             <div className="contenedor-proyecto">
               <img className="imagen-proyecto" src={Testimonios} alt="" />
               <div className="links-proyectos">
+              <p className="link-proyecto2">Clon de Testimonios</p>
                 <a href="https://testimonios-gjc.netlify.app/" target="blank7" className="link-proyecto link-web">Ir a la página web<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
                 <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-testimonios" target="blank8" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
               </div>
@@ -51,6 +55,7 @@ function Seccion3 () {
             <video className="video-proyecto" width="600" height="600" poster={imagenProyecto} controls>
               <source src={videoProyecto} type="" />
             </video>
+            <p className="link-proyecto2">Mundial 2022 - Selección Argentina</p>
             <div className="links-proyectos link-web">
               <p className="link-proyecto2">Ir a la página web</p>
               <div className="contenedor-links">
