@@ -453,6 +453,7 @@ html {
     box-shadow: 1px 1px 3px #fb8b8b;
     border: 1.5px groove #000;
     border-radius: 8px;
+    cursor: pointer;
   }
   
   .formulario-input::placeholder,
