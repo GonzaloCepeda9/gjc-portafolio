@@ -450,7 +450,7 @@ html {
     background-color: var(--form-gmail);
     color: #fff;
     text-shadow: 1px 1px 2px #000;
-    box-shadow: 1px 1px 3px #fb8b8b;
+    box-shadow: 1px 1px 3px #b10b0b;
     border: 1.5px groove #000;
     border-radius: 8px;
     cursor: pointer;
@@ -467,12 +467,11 @@ html {
   }
   
   .formulario-boton:hover {
-    background-color: var(--form-gmail);
+    background-color: #ea0808;
   }
   
   .formulario-boton:active {
-    background-color: var(--form-gmail);
-    opacity: 0.8;
+    background-color: #8f0e0e;    
   }
 
 /* Fin de Sección 4 */
