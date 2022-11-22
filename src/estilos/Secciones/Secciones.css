@@ -153,22 +153,22 @@ html {
 }
 
 .contenedor-pdf {
-  padding: 4px;
+  padding: 12px;
   margin-top: 24px;
   border-radius: 4px 4px 4px 4px;
   border: none;
   font-family: 'Poppins', sans-serif;
-  background-color: #979494;
-  box-shadow: 1px 1px 1px #fff;
+  background-color: #710e0e;
+  box-shadow: 0 0 2px #fff;
   text-shadow: 1px 1px 1px #000;
 }
 
 .contenedor-pdf:hover {
-  background-color: #b5b3b3;
+  background-color: #9b5959;
 }
 
 .contenedor-pdf:active {
-  background-color: #6a6565;
+  background-color: #3b0505;
 }
 
 .texto-pdf {
@@ -188,7 +188,7 @@ html {
 
 .icon-pdf {
   font-size: 16px;
-  color: #333333;
+  color: #fff;
 }
 
 /* Fin de Sección 2 */

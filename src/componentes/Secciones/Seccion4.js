@@ -38,7 +38,7 @@ function Seccion4 () {
 
   return (
     <section className="seccion seccion4" id="contacto">
-      <div className="contenedor contenedor-contacto">
+      <div className="contenedor contenedor-contacto" data-aos="zoom-in-down">
         <h2 className="titulo-seccion titulo-contactos">Contacto</h2>
         <div className="contenedor-contactos">
           <a href="https://wa.me/5493446612790" className="contenedor-icon contenedor-whatsapp" target="blank1">

@@ -12,7 +12,7 @@ function Seccion2 () {
         <div className="contenedor-texto">
           <p>Comencé mi formación como Desarrollador Web realizando trainings de manera autodidacta, y para reforzar conocimientos realicé la diplomatura en <strong>Programación Web Full Stack con React JS</strong> en la <strong>Universidad Tecnológica Nacional (UTN) - Facultad Regional de Buenos Aires.</strong></p>
         </div>
-        <div className="contenedor-certificado">
+        <div className="contenedor-certificado" data-aos="fade-right">
           <img className="certificadoUTN" src={CertificadoUTN} alt="" />
         </div>
         <button className="contenedor-pdf">

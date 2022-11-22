@@ -16,7 +16,7 @@ function Seccion3 () {
         <h2 className="titulo-seccion titulo-contactos">Proyectos</h2>
         <h3 className="titulo-secundario">Proyectos Básicos</h3>
         <div className="proyectos-basicos">
-            <div className="contenedor-proyecto">
+            <div className="contenedor-proyecto" data-aos="fade-right">
               <img className="imagen-proyecto" src={Tareas} alt="" />
               <div className="links-proyectos">
                 <p className="link-proyecto2">Tareas</p>
@@ -24,7 +24,7 @@ function Seccion3 () {
                 <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-tareas" target="blank2" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
               </div>
             </div>
-            <div className="contenedor-proyecto">
+            <div className="contenedor-proyecto" data-aos="fade-left">
               <img className="imagen-proyecto" src={Calculadora} alt="" />
               <div className="links-proyectos">
               <p className="link-proyecto2">Calculadora</p>
@@ -32,7 +32,7 @@ function Seccion3 () {
                 <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-calculadora" target="blank4" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
               </div>
             </div>
-            <div className="contenedor-proyecto">
+            <div className="contenedor-proyecto" data-aos="fade-right">
               <img className="imagen-proyecto" src={ContadorClicks} alt="" />
               <div className="links-proyectos">
               <p className="link-proyecto2">Contador de Clicks</p>
@@ -40,7 +40,7 @@ function Seccion3 () {
                 <a href="https://github.com/GonzaloCepeda9/freeCodeCamp-contadorClicks" target="blank6" className="link-proyecto">Ver código en GitHub<FontAwesomeIcon className="icon-link" icon={faExternalLinkAlt} /></a>
               </div>
             </div>
-            <div className="contenedor-proyecto">
+            <div className="contenedor-proyecto" data-aos="fade-left">
               <img className="imagen-proyecto" src={Testimonios} alt="" />
               <div className="links-proyectos">
               <p className="link-proyecto2">Clon de Testimonios</p>
@@ -51,7 +51,7 @@ function Seccion3 () {
         </div>
         <h3 className="titulo-secundario">Proyecto Avanzado</h3>
         <div className="proyecto-principal">
-          <div className="contenedor-proyecto">  
+          <div className="contenedor-proyecto" data-aos="zoom-in">  
             <video className="video-proyecto" width="600" height="600" poster={imagenProyecto} controls>
               <source src={videoProyecto} type="" />
             </video>
